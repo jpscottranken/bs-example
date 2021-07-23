@@ -1,0 +1,156 @@
+body
+{
+	padding-top: 4.375em;
+	padding-bottom: 9em;
+}
+
+.navbar-text > a
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+p
+{
+	font-family: Pangolin, cursive;
+	font-size: 1.25em;
+}
+
+h1, h2, h3
+h4, h5, h6
+{
+	font-family: Candal;
+}
+
+h3
+{
+	font-weight: bold;
+}
+
+#footerText
+{
+	font-size: 1.5em;
+}
+
+/*	Lesson 11 adds	*/
+.navbar-default 
+{
+	background-color: #2C3E50;
+	border-color: #fff;
+	color: #fff;
+}
+
+.navbar-default .navbar-brand 
+{
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus 
+{
+	color: #18BC9C;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a 
+{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus 
+{
+	color: #fff;
+	background-color: #1A242F;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus 
+{
+	color: #18BC9C;
+	background-color: transparent;
+}
+
+{
+	background-color: #1A242F;
+	color: #fff;
+}
+
+.btn-primary 
+{
+	background-color: #2C3E50;
+	border-color: #2C3E50;
+	color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active
+{
+	color: #fff;
+	background-color: #1E2A36;
+	border-color: #161F29; 
+}
+
+.btn-success 
+{
+	background-color: #18BC9C;
+	border-color: #18BC9C;
+	color: #FFFFFF;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active 
+{
+	color: #FFFFFF;
+	background-color: #13987E;
+	border-color: #13987E; 
+}
+
+.btn-default 
+{
+	background-color: #95A5A6;
+	border-color: #95A5A6;
+	color: #FFFFFF;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-success 
+{
+	color: #FFFFFF;
+	background-color: #7F9293;
+	border-color: #74898A;
+}
+
+/*	Lesson 12 adds	*/
+.thumbnail img:hover
+{
+	transform: scale(1.1);
+}
+
+
+.thumbnail img
+{
+	transition: all 0.3s ease 0s;
+	width: 100%;
+}
+
+.thumbnail
+{
+	overflow: hidden;
+}
+
+
+/*	Lesson 13 add	*/
+#aboutBody
+{
+	background-color: #D3D3D3;
+}
+

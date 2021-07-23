@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!--	Set character set to Unicode	-->
+	<meta charset="utf-8">
+	
+	<!--	Microsoft browser fixed			-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<!--	Set for mobile first display	-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <!-- 
+			The above 3 meta tags *must* come first in the head; 
+			any other head content must come *after* these tags 
+	-->
+    <title>Part13 - Bootstrap 101 Template</title>
+
+    <!--	Link to Bootstrap CSS file		 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!--	Link to Font Awesome via CDN	 -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<!--	Link 1 to Google Fonts			 -->
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+	
+	<!--	Link 2 to Google Fonts			 -->
+	<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet'>
+	
+    <!--	Link to my CSS file		 		 -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!--	Header Area													-->
+    <div class="navbar navbar-default navbar-fixed-top"
+		 role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" 
+						class="navbar-toggle" 
+						data-toggle="collapse" 
+						data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+				<a 	class="navbar-brand" 
+					href="#">Ranken Technical College
+				</a>
+			</div>	<!--	End <div class="navbar-header">				-->
+			
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a	href="#contact"
+							data-toggle="modal">Contact
+						</a>
+					</li>
+				</ul>	<!--	End <ul>								-->
+			</div>	<!--	End <div class="navbar-collapse collapse">	-->
+		</div>		<!--	End <div class="container">					-->
+	</div>			<!--	End <div class="navbar navbar-default...	-->
+	<!--	End Header Area												-->
+	
+	<!--	Content Area												-->
+	
+		<!--	Begin Jumbotron Area									-->
+		<div class="container">
+			<div class="jumbotron text-center">
+				<h1>Running Bootstrap Example</h1>
+				
+				<p>
+					This is a running bootstrap example.  That's all folks.
+				</p>
+				
+				<a 	href="http://getbootstrap.com"
+					class="btn btn-primary"
+					role="button"
+					target="_new">Bootstrap 3
+				</a>
+
+				<a 	href="https://v4-alpha.getbootstrap.com"
+					class="btn btn-success"
+					role="button"
+					target="_new">Bootstrap 4
+				</a><br><br>
+				
+			</div>	<!--	End <div class="jumbotron text-center">		-->
+			<!--	End Jumbotron Area										-->
+		
+			<!--	Begin Main Content Area									-->
+			<div  class="row">
+				<div class="col-md-4">
+					<a 	href="https://www.w3schools.com/html/html5_intro.asp"
+						target="_new"
+						class="thumbnail">
+						<img src="images/html5.png"
+							 width="225"
+							 height="225"
+							 alt="HTML5 Logo">
+					</a>
+					<h3>HTML5</h3>
+				
+					<p>
+					The first mate and his Skipper too will do 
+					their very best to make the others comfortable 
+					in their tropic island nest. Just two good ol' 
+					boys Wouldn't change if they could. Fightin' the 
+					system like a true modern day Robin Hood. Just 
+					two good ol' boys Wouldn't change if they could. 
+					Fightin' the system like a true modern day Robin 
+					Hood.
+					</p>
+				
+					<a	href="https://www.w3schools.com/html/html5_intro.asp"
+						class="btn btn-warning"
+						target="_new"
+						role="button">HTML5
+					</a>
+				</div>	<!--	<div class="col-md-4">						-->
+			
+				<div class="col-md-4">
+					<a 	href="https://www.w3schools.com/css/default.asp"
+						target="_new"
+						class="thumbnail">
+						<img src="images/css3.png"
+							 width="225"
+							 height="225"
+							 alt="CSS3 Logo">
+					</a>
+					<h3>CSS3</h3>
+				
+					<p>
+					Come aboard were expecting you. Love life's sweetest 
+					reward Let it flow it floats back to you. Well we're 
+					movin' on up to the east side to a deluxe apartment in 
+					the sky. They call him Flipper Flipper faster than 
+					lightning. No one you see is smarter than he? So lets 
+					make the most of this beautiful day. Since we're together 
+					Why do we always come here? I guess well never know.					
+					</p>
+				
+					<a	href="https://www.w3schools.com/css/default.asp"
+						class="btn btn-danger"
+						target="_new"
+						role="button">CSS3
+					</a>
+				</div>	<!--	<div class="col-md-4">						-->
+
+				<div class="col-md-4">
+					<a 	href="https://www.w3schools.com/bootstrap/default.asp"
+						target="_new"
+						class="thumbnail">
+						<img src="images/bootstrap.png"
+							 width="225"
+							 height="225"
+							 alt="Bootstrap Logo">
+					</a>
+					<h3>Bootstrap</h3>
+				
+					<p>
+					Go Speed Racer. Go Speed Racer. Go Speed Racer go! Goodbye 
+					gray sky hello blue. There's nothing can hold me when I hold 
+					you. Feels so right it cant be wrong. Rockin' and rollin' all 
+					week long. Said Californ'y is the place you ought to be So they 
+					loaded up the truck and moved to Beverly. Hills that is. 
+					Swimmin' pools movie stars.
+					</p>
+				
+					<a	href="https://getbootstrap.com"
+						class="btn btn-default"
+						target="_new"
+						role="button">Bootstrap
+					</a>
+				</div>	<!--	<div class="col-md-4">					-->
+			</div>		<!--	Begin Main Content Area					-->
+			<!--	End Content Area											-->
+		</div>		<!--	End <div class="container">					-->
+
+	<!--	Footer Area													-->
+	<div class="navbar navbar-inverse navbar-fixed-bottom"
+		 role="navigation">
+		<div class="navbar-text pull-left">
+			<div class="container">
+				<p>Jeff Scott, Inc. &copy; - 2021</p>
+			</div>	<!--	End <div class="container">					-->
+		</div>		<!--	End <div class="navbar-text pull-left">		-->
+		
+		<div class="navbar-text pull-right">
+			<a 	href="https://www.facebook.com/rankentech/"
+				target="_blank">
+				<i class="fa fa-facebook-square fa-2x"></i>
+			</a>
+			<a 	href="https://twitter.com/ranken?lang=en"
+				target="_blank">
+				<i class="fa fa-twitter-square fa-2x"></i>
+			</a>
+			<a 	href="https://plus.google.com/+rankentechnicalcollege"
+				target="_blank">
+				<i class="fa fa-google-plus-square fa-2x"></i>
+			</a>
+		</div>		<!--	End <div class="navbar-text pull-right">	-->
+	</div>			<!--	End <div class="navbar navbar-inverse...	-->
+	<!--	End Footer Area													-->
+
+	<div class="modal fade"
+		 id="contact"
+		 role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<form class="form-horizontal"
+				  role="form">
+				<div class="modal-header">
+					<h4>Contact Info</h4>
+				</div>	<!-- End <div class="modal-header">				-->
+				<div class="modal-body">
+					<div class="form-group">
+						<label for="contact-fname"
+							   class="col-sm-4 control-label">First Name:
+						</label>
+						<div class="col-sm-8">
+							<input type="text"
+								   class="form-control"
+								   id="contact-fname"
+								   placeholder="First Name Here">
+						</div> <!-- End <div class="col-sm8">			-->
+					</div> <!-- End <div class="form-group">			-->
+
+					<div class="form-group">
+						<label for="contact-lname"
+							   class="col-sm-4 control-label">Last Name:
+						</label>
+						<div class="col-sm-8">
+							<input type="text"
+								   class="form-control"
+								   id="contact-fname"
+								   placeholder="Last Name Here">
+						</div> <!-- End <div class="col-sm8">			-->
+					</div> <!-- End <div class="form-group">			-->
+
+					<div class="form-group">
+						<label for="contact-email"
+							   class="col-sm-4 control-label">Email Address:
+						</label>
+						<div class="col-sm-8">
+							<input type="text"
+								   class="form-control"
+								   id="contact-email"
+								   placeholder="Email Address Here">
+						</div> <!-- End <div class="col-sm8">			-->
+					</div> <!-- End <div class="form-group">			-->
+
+					<div class="form-group">
+						<label for="contact-message"
+							   class="col-sm-4 control-label">Message:
+						</label>
+						<div class="col-sm-8">
+							<textarea
+								class="form-control"
+								id="contact-message"
+								rows="5">
+							</textarea>
+						</div> <!-- End <div class="col-sm8">			-->
+					</div> <!-- End <div class="form-group">			-->
+
+				</div> <!--	End <div class="modal-body">				-->
+				
+				<div class="modal-footer">
+					<a 	class="btn btn-default"
+						data-dismiss="modal"
+						role="button">Close
+					</a> 
+					
+					<button type="submit"
+							class="btn btn-primary">Submit
+					</button>
+				</div> <!-- End <div class="modal-footer">				-->
+				</form>
+			</div>	<!--	End <div class="modal-content">				-->
+		</div>		<!--	End <div class="modal-dialog">				-->
+	</div>			<!--	End <div class="modal fade"					-->
+	
+    <!-- Add jQuery (necessary for Bootstrap's JavaScript plugins) 		-->
+    <script src="js/jquery.js"></script>
+    
+	<!-- Include all compiled plugins (below), or include individual 
+		 files as needed.  This file MUST be included AFTER the 
+		 jquery file.											   		-->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
